@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "kinect2_bridge")
+set(kinect2_bridge_MAINTAINER "Thiemo Wiedemeyer <wiedemeyer@informatik.uni-bremen.de>")
+set(kinect2_bridge_DEPRECATED "")
+set(kinect2_bridge_VERSION "0.0.1")
+set(kinect2_bridge_BUILD_DEPENDS "roscpp" "rostime" "std_msgs" "sensor_msgs" "message_filters" "compressed_depth_image_transport" "kinect2_registration" "nodelet" "cv_bridge")
+set(kinect2_bridge_RUN_DEPENDS "message_runtime" "roscpp" "rostime" "std_msgs" "sensor_msgs" "compressed_depth_image_transport" "kinect2_registration" "nodelet" "cv_bridge")
+set(kinect2_bridge_BUILDTOOL_DEPENDS "catkin")
